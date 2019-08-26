@@ -1,888 +1,873 @@
-<!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Sima</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-	<!--[if lt IE 9]> <script src="js/html5shiv.js"></script> 
-	<script src="js/respond.min.js"></script> <![endif]--> 		
-        <!-- Place favicon.ico in the root directory -->
-		<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/owl.carousel.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <link rel="stylesheet" href="css/style.css">
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Philosophy</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    </head>
-<body >
-		 <!-- start preloader -->
-        <div id="loader-wrapper">
-            <div class="logo"></div>
-            <div id="loader">
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-- pageheader
+    ================================================== -->
+    <section class="s-pageheader s-pageheader--home">
+
+        <header class="header">
+            <div class="header__content row">
+
+                <div class="header__logo">
+                    <a class="logo" href="index.html">
+                        <img src="images/logo.svg" alt="Homepage">
+                    </a>
+                </div> <!-- end header__logo -->
+
+                <ul class="header__social">
+                    <li>
+                        <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                    </li>
+                </ul> <!-- end header__social -->
+
+                <a class="header__search-trigger" href="#0"></a>
+
+                <div class="header__search">
+
+                    <form role="search" method="get" class="header__search-form" action="#">
+                        <label>
+                            <span class="hide-content">Search for:</span>
+                            <input type="search" class="search-field" placeholder="Type Keywords" value="" name="s" title="Search for:" autocomplete="off">
+                        </label>
+                        <input type="submit" class="search-submit" value="Search">
+                    </form>
+        
+                    <a href="#0" title="Close Search" class="header__overlay-close">Close</a>
+
+                </div>  <!-- end header__search -->
+
+
+                <a class="header__toggle-menu" href="#0" title="Menu"><span>Menu</span></a>
+
+                <nav class="header__nav-wrap">
+
+                    <h2 class="header__nav-heading h6">Site Navigation</h2>
+
+                    <ul class="header__nav">
+                        <li class="current"><a href="index.html" title="">Home</a></li>
+                        <li class="has-children">
+                            <a href="#0" title="">Categories</a>
+                            <ul class="sub-menu">
+                            <li><a href="category.html">Lifestyle</a></li>
+                            <li><a href="category.html">Health</a></li>
+                            <li><a href="category.html">Family</a></li>
+                            <li><a href="category.html">Management</a></li>
+                            <li><a href="category.html">Travel</a></li>
+                            <li><a href="category.html">Work</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="#0" title="">Blog</a>
+                            <ul class="sub-menu">
+                            <li><a href="single-video.html">Video Post</a></li>
+                            <li><a href="single-audio.html">Audio Post</a></li>
+                            <li><a href="single-gallery.html">Gallery Post</a></li>
+                            <li><a href="single-standard.html">Standard Post</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="style-guide.html" title="">Styles</a></li>
+                        <li><a href="about.html" title="">About</a></li>
+                        <li><a href="contact.html" title="">Contact</a></li>
+                    </ul> <!-- end header__nav -->
+
+                    <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
+
+                </nav> <!-- end header__nav-wrap -->
+
+            </div> <!-- header-content -->
+        </header> <!-- header -->
+
+
+        <div class="pageheader-content row">
+            <div class="col-full">
+
+                <div class="featured">
+
+                    <div class="featured__column featured__column--big">
+                        <div class="entry" style="background-image:url('images/thumbs/featured/featured-guitarman.jpg');">
+                            
+                            <div class="entry__content">
+                                <span class="entry__category"><a href="#0">Music</a></span>
+
+                                <h1><a href="#0" title="">What Your Music Preference Says About You and Your Personality.</a></h1>
+
+                                <div class="entry__info">
+                                    <a href="#0" class="entry__profile-pic">
+                                        <img class="avatar" src="images/avatars/user-03.jpg" alt="">
+                                    </a>
+
+                                    <ul class="entry__meta">
+                                        <li><a href="#0">John Doe</a></li>
+                                        <li>December 29, 2017</li>
+                                    </ul>
+                                </div>
+                            </div> <!-- end entry__content -->
+                            
+                        </div> <!-- end entry -->
+                    </div> <!-- end featured__big -->
+
+                    <div class="featured__column featured__column--small">
+
+                        <div class="entry" style="background-image:url('images/thumbs/featured/featured-watch.jpg');">
+                            
+                            <div class="entry__content">
+                                <span class="entry__category"><a href="#0">Management</a></span>
+
+                                <h1><a href="#0" title="">The Pomodoro Technique Really Works.</a></h1>
+
+                                <div class="entry__info">
+                                    <a href="#0" class="entry__profile-pic">
+                                        <img class="avatar" src="images/avatars/user-03.jpg" alt="">
+                                    </a>
+
+                                    <ul class="entry__meta">
+                                        <li><a href="#0">John Doe</a></li>
+                                        <li>December 27, 2017</li>
+                                    </ul>
+                                </div>
+                            </div> <!-- end entry__content -->
+                          
+                        </div> <!-- end entry -->
+
+                        <div class="entry" style="background-image:url('images/thumbs/featured/featured-beetle.jpg');">
+
+                            <div class="entry__content">
+                                <span class="entry__category"><a href="#0">LifeStyle</a></span>
+
+                                <h1><a href="#0" title="">Throwback To The Good Old Days.</a></h1>
+
+                                <div class="entry__info">
+                                    <a href="#0" class="entry__profile-pic">
+                                        <img class="avatar" src="images/avatars/user-03.jpg" alt="">
+                                    </a>
+
+                                    <ul class="entry__meta">
+                                        <li><a href="#0">John Doe</a></li>
+                                        <li>December 21, 2017</li>
+                                    </ul>
+                                </div>
+                            </div> <!-- end entry__content -->
+
+                        </div> <!-- end entry -->
+
+                    </div> <!-- end featured__small -->
+                </div> <!-- end featured -->
+
+            </div> <!-- end col-full -->
+        </div> <!-- end pageheader-content row -->
+
+    </section> <!-- end s-pageheader -->
+
+
+    <!-- s-content
+    ================================================== -->
+    <section class="s-content">
+        
+        <div class="row masonry-wrap">
+            <div class="masonry">
+
+                <div class="grid-sizer"></div>
+
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+                        
+                    <div class="entry__thumb">
+                        <a href="single-standard.html" class="entry__thumb-link">
+                            <img src="images/thumbs/masonry/lamp-400.jpg" 
+                                    srcset="images/thumbs/masonry/lamp-400.jpg 1x, images/thumbs/masonry/lamp-800.jpg 2x" alt="">
+                        </a>
+                    </div>
+    
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            
+                            <div class="entry__date">
+                                <a href="single-standard.html">December 15, 2017</a>
+                            </div>
+                            <h1 class="entry__title"><a href="single-standard.html">Just a Standard Format Post.</a></h1>
+                            
+                        </div>
+                        <div class="entry__excerpt">
+                            <p>
+                                Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
+                            </p>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="category.html">Design</a> 
+                                <a href="category.html">Photography</a>
+                            </span>
+                        </div>
+                    </div>
+    
+                </article> <!-- end article -->
+
+                <article class="masonry__brick entry format-quote" data-aos="fade-up">
+                        
+                    <div class="entry__thumb">
+                        <blockquote>
+                                <p>Good design is making something intelligible and memorable. Great design is making something memorable and meaningful.</p>
+    
+                                <cite>Dieter Rams</cite>
+                        </blockquote>
+                    </div>   
+    
+                </article> <!-- end article -->
+
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+                        
+                    <div class="entry__thumb">
+                        <a href="single-standard.html" class="entry__thumb-link">
+                            <img src="images/thumbs/masonry/tulips-400.jpg" 
+                                    srcset="images/thumbs/masonry/tulips-400.jpg 1x, images/thumbs/masonry/tulips-800.jpg 2x" alt="">
+                        </a>
+                    </div>
+    
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            
+                            <div class="entry__date">
+                                <a href="single-standard.html">December 15, 2017</a>
+                            </div>
+                            <h1 class="entry__title"><a href="single-standard.html">10 Interesting Facts About Caffeine.</a></h1>
+                            
+                        </div>
+                        <div class="entry__excerpt">
+                            <p>
+                                Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
+                            </p>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="category.html">Health</a>
+                            </span>
+                        </div>
+                    </div>
+    
+                </article> <!-- end article -->
+
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+
+                    <div class="entry__thumb">
+                        <a href="single-standard.html" class="entry__thumb-link">
+                            <img src="images/thumbs/masonry/cookies-400.jpg" 
+                                    srcset="images/thumbs/masonry/cookies-400.jpg 1x, images/thumbs/masonry/cookies-800.jpg 2x" alt="">
+                        </a>
+                    </div>
+    
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            
+                            <div class="entry__date">
+                                <a href="single-standard.html">December 10, 2017</a>
+                            </div>
+                            <h1 class="entry__title"><a href="single-standard.html">No Sugar Oatmeal Cookies.</a></h1>
+                            
+                        </div>
+                        <div class="entry__excerpt">
+                            <p>
+                                Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
+                            </p>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="category.html">Cooking</a>
+                                <a href="category.html">Health</a>
+                            </span>
+                        </div>
+                    </div>
+    
+                </article> <!-- end article -->
+
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+
+                    <div class="entry__thumb">
+                        <a href="single-standard.html" class="entry__thumb-link">
+                            <img src="images/thumbs/masonry/wheel-400.jpg" 
+                                    srcset="images/thumbs/masonry/wheel-400.jpg 1x, images/thumbs/masonry/wheel-800.jpg 2x" alt="">
+                        </a>
+                    </div>
+    
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            
+                            <div class="entry__date">
+                                <a href="single-standard.html">December 10, 2017</a>
+                            </div>
+                            <h1 class="entry__title"><a href="single-standard.html">Visiting Theme Parks Improves Your Health.</a></h1>
+                            
+                        </div>
+                        <div class="entry__excerpt">
+                            <p>
+                                Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
+                            </p>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="#">Health</a> 
+                                <a href="#">Lifestyle</a>
+                            </span>
+                        </div>
+                    </div>
+    
+                </article> <!-- end article -->
+
+                <article class="masonry__brick entry format-video" data-aos="fade-up">
+                        
+                    <div class="entry__thumb video-image">
+                        <a href="https://player.vimeo.com/video/117310401?color=01aef0&title=0&byline=0&portrait=0" data-lity>
+                            <img src="images/thumbs/masonry/shutterbug-400.jpg" 
+                                    srcset="images/thumbs/masonry/shutterbug-400.jpg 1x, images/thumbs/masonry/shutterbug-800.jpg 2x" alt="">
+                        </a>
+                    </div>
+    
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            
+                            <div class="entry__date">
+                                <a href="single-video.html">December 10, 2017</a>
+                            </div>
+                            <h1 class="entry__title"><a href="single-video.html">Key Benefits Of Family Photography.</a></h1>
+                            
+                        </div>
+                        <div class="entry__excerpt">
+                            <p>
+                                Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
+                            </p>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="category.html">Family</a> 
+                                <a href="category.html">Photography</a>
+                            </span>
+                        </div>
+                    </div>
+    
+                </article> <!-- end article -->
+
+
+                <article class="masonry__brick entry format-gallery" data-aos="fade-up">
+                        
+                    <div class="entry__thumb slider">
+                        <div class="slider__slides">
+                            <div class="slider__slide">
+                                <img src="images/thumbs/masonry/gallery/gallery-1-400.jpg" 
+                                        srcset="images/thumbs/masonry/gallery/gallery-1-400.jpg 1x, images/thumbs/masonry/gallery/gallery-1-800.jpg 2x" alt=""> 
+                            </div>
+                            <div class="slider__slide">
+                                <img src="images/thumbs/masonry/gallery/gallery-2-400.jpg" 
+                                        srcset="images/thumbs/masonry/gallery/gallery-2-400.jpg 1x, images/thumbs/masonry/gallery/gallery-2-800.jpg 2x" alt=""> 
+                            </div>
+                            <div class="slider__slide">
+                                <img src="images/thumbs/masonry/gallery/gallery-3-400.jpg" 
+                                        srcset="images/thumbs/masonry/gallery/gallery-3-400.jpg 1x, images/thumbs/masonry/gallery/gallery-3-800.jpg 2x" alt="">  
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            
+                            <div class="entry__date">
+                                <a href="single-gallery.html">December 10, 2017</a>
+                            </div>
+                            <h1 class="entry__title"><a href="single-gallery.html">Workspace Design Trends and Ideas.</a></h1>
+                            
+                        </div>
+                        <div class="entry__excerpt">
+                            <p>
+                                Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
+                            </p>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="category.html">Work</a> 
+                                <a href="category.html">Management</a>
+                            </span>
+                        </div>
+                    </div>
+    
+                </article> <!-- end article -->
+
+                <article class="masonry__brick entry format-audio" data-aos="fade-up">
+
+                    <div class="entry__thumb">
+                        <a href="single-audio.html" class="entry__thumb-link">
+                            <img src="images/thumbs/masonry/guitarman-400.jpg" 
+                                    srcset="images/thumbs/masonry/guitarman-400.jpg 1x, images/thumbs/masonry/guitarman-800.jpg 2x" alt="">
+                        </a>
+                        <div class="audio-wrap">
+                            <audio id="player" src="media/AirReview-Landmarks-02-ChasingCorporate.mp3" width="100%" height="42" controls="controls"></audio>
+                        </div>
+                    </div>
+
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            
+                            <div class="entry__date">
+                                <a href="single-audio.html">December 10, 2017</a>
+                            </div>
+                            <h1 class="entry__title"><a href="single-audio.html">What Your Music Preference Says About You and Your Personality.</a></h1>
+                            
+                        </div>
+                        <div class="entry__excerpt">
+                            <p>
+                                Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
+                            </p>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="category.html">Music</a> 
+                                <a href="category.html">Lifestyle</a>
+                            </span>
+                        </div>
+                    </div>
+
+                </article> <!-- end article -->
+
+                <article class="masonry__brick entry format-link" data-aos="fade-up">
+                    
+                    <div class="entry__thumb">
+                        <div class="link-wrap">
+                            <p>The Only Resource You Will Need To Start a Blog Using WordPress.</p>
+                            <cite>
+                                <a target="_blank" href="https://colorlib.com/">https://colorlib.com</a>
+                            </cite>
+                        </div>
+                    </div>
+                    
+                </article> <!-- end article -->
+
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+
+                    <div class="entry__thumb">
+                        <a href="single-standard.html" class="entry__thumb-link">
+                            <img src="images/thumbs/masonry/jump-400.jpg" 
+                                    srcset="images/thumbs/masonry/jump-400.jpg 1x, images/thumbs/masonry/jump-800.jpg 2x" alt="">
+                        </a>
+                    </div>
+
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            
+                            <div class="entry__date">
+                                <a href="single-standard.html">December 10, 2017</a>
+                            </div>
+                            <h1 class="entry__title"><a href="single-standard.html">Create Meaningful Family Moments.</a></h1>
+                            
+                        </div>
+                        <div class="entry__excerpt">
+                            <p>
+                                Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
+                            </p>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="category.html">Family</a>
+                                <a href="category.html">Relationship</a>
+                            </span>
+                        </div>
+                    </div>
+
+                </article> <!-- end article -->
+
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+
+                    <div class="entry__thumb">
+                        <a href="single-standard.html" class="entry__thumb-link">
+                            <img src="images/thumbs/masonry/beetle-400.jpg" 
+                                    srcset="images/thumbs/masonry/beetle-400.jpg 1x, images/thumbs/masonry/beetle-800.jpg 2x" alt="">
+                        </a>
+                    </div>
+
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            
+                            <div class="entry__date">
+                                <a href="single-standard.html">December 10, 2017</a>
+                            </div>
+                            <h1 class="entry__title"><a href="single-standard.html">Throwback To The Good Old Days.</a></h1>
+                            
+                        </div>
+                        <div class="entry__excerpt">
+                            <p>
+                                Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
+                            </p>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="category.html">Lifestyle</a>
+                            </span>
+                        </div>
+                    </div>
+
+                </article> <!-- end article -->
+
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+
+                    <div class="entry__thumb">
+                        <a href="single-standard.html" class="entry__thumb-link">
+                            <img src="images/thumbs/masonry/fuji-400.jpg" 
+                                    srcset="images/thumbs/masonry/fuji-400.jpg 1x, images/thumbs/masonry/fuji-800.jpg 2x" alt="">
+                        </a>
+                    </div>
+
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            
+                            <div class="entry__date">
+                                <a href="single-standard.html">December 10, 2017</a>
+                            </div>
+                            <h1 class="entry__title"><a href="single-standard.html">Just Another  Standard Format Post.</a></h1>
+                            
+                        </div>
+                        <div class="entry__excerpt">
+                            <p>
+                                Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
+                            </p>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="category.html">Design</a> 
+                                <a href="category.html">Photography</a>
+                            </span>
+                        </div>
+                    </div>
+
+                </article> <!-- end article -->
+
+                <article class="masonry__brick entry format-standard" data-aos="fade-up">
+
+                    <div class="entry__thumb">
+                        <a href="single-standard.html" class="entry__thumb-link">
+                            <img src="images/thumbs/masonry/sydney-400.jpg" 
+                                    srcset="images/thumbs/masonry/sydney-400.jpg 1x, images/thumbs/masonry/sydney-800.jpg 2x" alt="">
+                        </a>
+                    </div>
+
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            
+                            <div class="entry__date">
+                                <a href="single-standard.html">December 10, 2017</a>
+                            </div>
+                            <h1 class="entry__title"><a href="single-standard.html">Planning Your First Trip to Sydney.</a></h1>
+                            
+                        </div>
+                        <div class="entry__excerpt">
+                            <p>
+                                Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
+                            </p>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="category.html">Travel</a> 
+                                <a href="category.html">Vacation</a>
+                            </span>
+                        </div>
+                    </div>
+
+                </article> <!-- end article -->
+
+            </div> <!-- end masonry -->
+        </div> <!-- end masonry-wrap -->
+
+        <div class="row">
+            <div class="col-full">
+                <nav class="pgn">
+                    <ul>
+                        <li><a class="pgn__prev" href="#0">Prev</a></li>
+                        <li><a class="pgn__num" href="#0">1</a></li>
+                        <li><span class="pgn__num current">2</span></li>
+                        <li><a class="pgn__num" href="#0">3</a></li>
+                        <li><a class="pgn__num" href="#0">4</a></li>
+                        <li><a class="pgn__num" href="#0">5</a></li>
+                        <li><span class="pgn__num dots">…</span></li>
+                        <li><a class="pgn__num" href="#0">8</a></li>
+                        <li><a class="pgn__next" href="#0">Next</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
-        <!-- end preloader -->
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-		
-		
-<!-- Start Header Section -->
-<header class="main_menu_sec navbar navbar-default navbar-fixed-top">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-3 col-md-3 col-sm-12">
-				<div class="lft_hd">
-					<a href="index.html"><img src="img/logo.png" alt=""/></a>
-				</div>
-			</div>			
-			<div class="col-lg-9 col-md-9 col-sm-12">
-				<div class="rgt_hd">					
-					<div class="main_menu">
-						<nav id="nav_menu">
-							<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							</button>	
-						<div id="navbar">
-							<ul>
-								<li><a class="page-scroll" href="index.html">Home</a></li> 
-							<li><a href="#">Our Another Page <i class="fa fa-angle-down"></i></a>
-							<ul>
-								<li><a class="page-scroll" href="#tm_sec">Our Team</a></li>
-								<li><a class="page-scroll" href="#tstm_sec">Our Testimonial</a></li>
-								<li><a class="page-scroll" href="#lts_sec">Our Latest Blog</a></li>
-								<li><a class="page-scroll" href="#pricing_sec">Pricing</a></li>
-								<li><a class="page-scroll" href="#clt_sec">Our Happy Client</a></li>
-							</ul>
-							</li> 						
 
-							<li><a href="#">Static Page<i class="fa fa-angle-down"></i></a>
-							<ul>
-								<li><a class="page-scroll" href="blog.html">Blog Page</a></li>
-								<li><a class="page-scroll" href="single.html">Single Blog Page</a></li>
-							</ul>
-							</li> 
-							
-								<li><a class="page-scroll" href="#abt_sec">About</a></li>
-								<li><a class="page-scroll" href="#skill_sec">Our Skill</a></li>
-								<li><a class="page-scroll" href="#pr_sec">Our Service</a></li>
-								<li><a class="page-scroll" href="#protfolio_sec">Our Portfolio</a></li>
-								<li><a class="page-scroll" href="#ctn_sec">Contact Us</a></li>
-							</ul>
-						</div>		
-						</nav>			
-					</div>					
-						
-				</div>
-			</div>	
-		</div>	
-	</div>	
-</header>
-<!-- End Header Section -->
-
-<!-- start slider Section -->
-<section id="slider_sec">
-	<div class="container">
-		<div class="row">
-			<div class="slider">
-					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-				  <!-- Indicators -->
-				  <ol class="carousel-indicators">
-					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-				  </ol>
-
-				  <!-- Wrapper for slides -->
-				  <div class="carousel-inner" role="listbox">
-					<div class="item active">
-						<div class="wrap_caption">
-						  <div class="caption_carousel">
-							<h1>We are webeeo</h1>
-							<p>LOREM IPSUM DOLOR SIT AMET CONSECTE</p>
-						  </div>						
-						</div>
-					</div>					
-					<div class="item">
-						<div class="wrap_caption">
-						  <div class="caption_carousel">
-							<h1>We are Creative</h1>
-							<p>LOREM IPSUM DOLOR SIT AMET CONSECTE</p>
-						  </div>						
-						</div>
-					</div>					
-					<div class="item ">
-						<div class="wrap_caption">
-						  <div class="caption_carousel">
-							<h1>We Have Greate Team</h1>
-							<p>LOREM IPSUM DOLOR SIT AMET CONSECTE</p>
-						  </div>						
-						</div>
-					</div>			
-				  </div>
-
-				  <!-- Controls -->
-				  <a class="left left_crousel_btn" href="#carousel-example-generic" role="button" data-slide="prev">
-					<i class="fa fa-angle-left"></i>
-					<span class="sr-only">Previous</span>
-				  </a>
-				  <a class="right right_crousel_btn" href="#carousel-example-generic" role="button" data-slide="next">
-					<i class="fa fa-angle-right"></i>
-					<span class="sr-only">Next</span>
-				  </a>
-				</div>
-			</div>	
-		</div>			
-	</div>	
-</section>
-<!-- End slider Section -->
-
-<!-- start about Section -->
-<section id="abt_sec">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs12 ">
-				<div class="title_sec">
-					<h1>ABOUT</h1>
-					<h2>WE’RE BRANDING & DIGITAL STUDIO FROM VIET NAM</h2>
-				</div>			
-			</div>		
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs12 ">
-				<div class="abt">
-					<p>Mauris luctus aliquet nunc quis consectetur. Curabitur elit massa, consequat vel velit sit amet, scelerisque hendrerit mi. Cras pellentesque sem turpis, quis interdum mi sagittis a. Donec mattis porttitor eleifend</p>
-				</div>
-			</div>			
-		</div>
-	</div>
-</section>
-<!-- End About Section -->
-
-<!-- start Counting section-->
-<section id="counting_sec">
-<div class="container">
-	<div class="row">	
-
-		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-			<div class="counting_sl">
-			<i class="fa fa-user"></i>
-			<h2 class="counter">43,753</h2>
-			<h4>Happy Clients</h4>	
-			</div>
-		</div>			
-		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-			<div class="counting_sl">
-			<i class="fa fa-desktop"></i>
-			<h2 class="counter">20,210</h2>
-			<h4>Complete Project</h4>	
-			</div>
-		</div>			
-		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-			<div class="counting_sl">
-			<i class="fa fa-ticket"></i>
-			<h2 class="counter">43,753</h2>
-			<h4>Answered Tickets</h4>	
-			</div>
-		</div>			
-		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-			<div class="counting_sl">
-			<i class="fa fa-clock-o"></i>
-			<h2 class="counter">45,105</h2>
-			<h4>Development Hours</h4>	
-			</div>
-		</div>										
-	</div>					
-</div>
-</section>
+    </section> <!-- s-content -->
 
 
-<!-- start progress bar Section -->
-<section id="skill_sec">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs12 ">
-				<div class="title_sec">
-					<h1>Our Skill diagram</h1>
-					<h2>WE’RE BRANDING & DIGITAL STUDIO FROM VIET NAM</h2>
-				</div>			
-			</div>			
-		  <div class="skills progress-bar1">		  
-				<ul class="col-md-6 col-sm-12 col-xs-12 wow fadeInLeft">
-					  <li class="progress">
-							<div class="progress-bar" data-width="85">
-								  Wordpress 85%
-							</div>
-					  </li>
-					  <li class="progress">
-							<div class="progress-bar" data-width="65">
-								  Graphic Design 65%
-							</div>
-					  </li>
-					  <li class="progress">
-							<div class="progress-bar" data-width="90">
-								  HTML/CSS Design 90%
-							</div>
-					  </li>
-					  <li class="progress">
-							<div class="progress-bar" data-width="60">
-								  SEO 60%
-							</div>
-					  </li>
-				</ul>
-				<ul class="col-md-6 col-sm-12 col-xs-12 wow fadeInRight">
-					  <li class="progress">
-							<div class="progress-bar" data-width="75">
-								  Agencying 75%
-							</div>
-					  </li>
-					  <li class="progress">
-							<div class="progress-bar" data-width="95">
-								  App Development 95%
-							</div>
-					  </li>
-					  <li class="progress">
-							<div class="progress-bar" data-width="70">
-								  IT Consultency 70%
-							</div>
-					  </li>
-					  <li class="progress">
-							<div class="progress-bar" data-width="90">
-								  Theme Development 90%
-							</div>
-					  </li>
-				</ul>
-		  </div>
-                     
-		
-		</div>
-	</div>
-</section>
-<!-- End progress bar Section -->
+    <!-- s-extra
+    ================================================== -->
+    <section class="s-extra">
 
-<!-- start Service Section -->
-<section id="pr_sec">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs12 ">
-				<div class="title_sec">
-					<h1>OUR Service</h1>
-					<h2>WE’RE BRANDING & DIGITAL STUDIO FROM VIET NAM</h2>
-				</div>			
-			</div>		
-			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-				<div class="service">						
-					<i class="fa fa-globe"></i>
-					<h2>web Development</h2>
-					<div class="service_hoverly">
-						<i class="fa fa-globe"></i>
-						<h2>web Development</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ab odio quas  , voluptate aspernatur!</p>
-					</div>
-				</div>
-			</div>				
-			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-				<div class="service">						
-					<i class="fa fa-paper-plane"></i>
-					<h2>E-mail marketing</h2>
-					<div class="service_hoverly">
-						<i class="fa fa-paper-plane"></i>
-						<h2>E-mail marketing</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ab odio quas  , voluptate aspernatur!</p>
-					</div>
-				</div>
-			</div>				
-			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-				<div class="service">						
-					<i class="fa fa-wordpress"></i>
-					<h2>WordPress</h2>
-					<div class="service_hoverly">
-						<i class="fa fa-wordpress"></i>
-						<h2>WordPress</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ab odio quas  , voluptate aspernatur!</p>
-					</div>
-				</div>
-			</div>				
-			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-				<div class="service">						
-					<i class="fa fa-paint-brush"></i>
-					<h2>Graphic Design</h2>
-					<div class="service_hoverly">
-						<i class="fa fa-paint-brush"></i>
-						<h2>Graphic Design</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ab odio quas  , voluptate aspernatur!</p>
-					</div>
-				</div>
-			</div>			
-		</div>
-	</div>
-</section>
-<!-- End Service Section -->
+        <div class="row top">
 
-<!-- start portfolio Section -->
-<section id="protfolio_sec">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs12 ">
-				<div class="title_sec">
-					<h1>Our Portfolio</h1>
-					<h2>WE’RE BRANDING & DIGITAL STUDIO FROM VIET NAM</h2>
-				</div>			
-			</div>		
-			<div class="col-lg-12">
-				<div class="portfolio-filter text-uppercase text-center">
-				<ul class="filter">
-				<li class="active" data-filter="*">All</li>
-				<li data-filter=".web-design">Web Design</li>
-				<li data-filter=".graphic">Graphic</li>
-				<li data-filter=".photography">Photography</li>
-				<li data-filter=".motion-video">Motion video</li>
-				</ul>
-				</div>
-				 
-				<div class="all-portfolios">
-					<div class="col-sm-12  col-lg-12 col-md-12 col-xs-12 ">
-					<div class="single-portfolio web-design">
-					<img class="img-responsive" src="http://showwp.com/demos/porton/default/upload/p_06.jpg" alt="">
-					</div>				
-					</div>				
-					<div class="col-sm-12  col-lg-12 col-md-12 col-xs-12 ">
-					<div class="single-portfolio web-design">
-					<img class="img-responsive" src="http://showwp.com/demos/porton/default/upload/p_01.jpg" alt="">
-					</div>				
-					</div>					
-					<div class="col-sm-12  col-lg-12 col-md-12 col-xs-12 ">
-					<div class="single-portfolio web-design">
-					<img class="img-responsive" src="http://showwp.com/demos/porton/default/upload/p_02.jpg" alt="">
-					</div>				
-					</div>					
-					<div class="col-sm-12  col-lg-12 col-md-12 col-xs-12 ">
-					<div class="single-portfolio graphic">
-					<img class="img-responsive" src="http://showwp.com/demos/porton/default/upload/p_03.jpg" alt="">
-					</div>				
-					</div>					
-					<div class="col-sm-12  col-lg-12 col-md-12 col-xs-12 ">
-					<div class="single-portfolio web-design">
-					<img class="img-responsive" src="http://showwp.com/demos/porton/default/upload/p_04.jpg" alt="">
-					</div>				
-					</div>					
-					<div class="col-sm-12  col-lg-12 col-md-12 col-xs-12 ">
-					<div class="single-portfolio photography">
-					<img class="img-responsive" src="http://showwp.com/demos/porton/default/upload/p_05.jpg" alt="">
-					</div>				
-					</div>				
-					<div class="col-sm-12  col-lg-12 col-md-12 col-xs-12 ">
-					<div class="single-portfolio web-design">
-					<img class="img-responsive" src="http://showwp.com/demos/porton/default/upload/p_07.jpg" alt="">
-					</div>				
-					</div>				
-					<div class="col-sm-12  col-lg-12 col-md-12 col-xs-12 ">
-					<div class="single-portfolio web-design">
-					<img class="img-responsive" src="http://showwp.com/demos/porton/default/upload/p_08.jpg" alt="">
-					</div>				
-					</div>				
-					<div class="col-sm-12  col-lg-12 col-md-12 col-xs-12 ">
-					<div class="single-portfolio photography">
-					<img class="img-responsive" src="http://showwp.com/demos/porton/default/upload/p_08.jpg" alt="">
-					</div>				
-					</div>				
-					<div class="col-sm-12  col-lg-12 col-md-12 col-xs-12 ">
-					<div class="single-portfolio web-design">
-					<img class="img-responsive" src="http://showwp.com/demos/porton/default/upload/p_08.jpg" alt="">
-					</div>				
-					</div>					
-					<div class="col-sm-12  col-lg-12 col-md-12 col-xs-12 ">
-					<div class="single-portfolio web-design">
-					<img class="img-responsive" src="http://showwp.com/demos/porton/default/upload/p_09.jpg" alt="">
-					</div>				
-					</div>			
-					<div class="col-sm-12  col-lg-12 col-md-12 col-xs-12 ">
-					<div class="single-portfolio photography">
-					<img class="img-responsive" src="http://showwp.com/demos/porton/default/upload/p_08.jpg" alt="">
-					</div>				
-					</div>
-				</div>
+            <div class="col-eight md-six tab-full popular">
+                <h3>Popular Posts</h3>
+
+                <div class="block-1-2 block-m-full popular__posts">
+                    <article class="col-block popular__post">
+                        <a href="#0" class="popular__thumb">
+                            <img src="images/thumbs/small/wheel-150.jpg" alt="">
+                        </a>
+                        <h5><a href="#0">Visiting Theme Parks Improves Your Health.</a></h5>
+                        <section class="popular__meta">
+                                <span class="popular__author"><span>By</span> <a href="#0"> John Doe</a></span>
+                            <span class="popular__date"><span>on</span> <time datetime="2017-12-19">Dec 19, 2017</time></span>
+                        </section>
+                    </article>
+                    <article class="col-block popular__post">
+                        <a href="#0" class="popular__thumb">
+                            <img src="images/thumbs/small/shutterbug-150.jpg" alt="">
+                        </a>
+                        <h5><a href="#0">Key Benefits Of Family Photography.</a></h5>
+                        <section class="popular__meta">
+                            <span class="popular__author"><span>By</span> <a href="#0"> John Doe</a></span>
+                            <span class="popular__date"><span>on</span> <time datetime="2017-12-18">Dec 18, 2017</time></span>
+                        </section>
+                    </article>
+                    <article class="col-block popular__post">
+                        <a href="#0" class="popular__thumb">
+                            <img src="images/thumbs/small/cookies-150.jpg" alt="">
+                        </a>
+                        <h5><a href="#0">Absolutely No Sugar Oatmeal Cookies.</a></h5>
+                        <section class="popular__meta">
+                                <span class="popular__author"><span>By</span> <a href="#0"> John Doe</a></span>
+                            <span class="popular__date"><span>on</span> <time datetime="2017-12-16">Dec 16, 2017</time></span>
+                        </section>
+                    </article>
+                    <article class="col-block popular__post">
+                        <a href="#0" class="popular__thumb">
+                            <img src="images/thumbs/small/beetle-150.jpg" alt="">
+                        </a>
+                        <h5><a href="#0">Throwback To The Good Old Days.</a></h5>
+                        <section class="popular__meta">
+                            <span class="popular__author"><span>By</span> <a href="#0"> John Doe</a></span>
+                            <span class="popular__date"><span>on</span> <time datetime="2017-12-16">Dec 16, 2017</time></span>
+                        </section>
+                    </article>
+                    <article class="col-block popular__post">
+                        <a href="#0" class="popular__thumb">
+                            <img src="images/thumbs/small/tulips-150.jpg" alt="">
+                        </a>
+                        <h5><a href="#0">10 Interesting Facts About Caffeine.</a></h5>
+                        <section class="popular__meta">
+                            <span class="popular__author"><span>By</span> <a href="#0"> John Doe</a></span>
+                            <span class="popular__date"><span>on</span> <time datetime="2017-12-14">Dec 14, 2017</time></span>
+                        </section>
+                    </article>
+                    <article class="col-block popular__post">
+                        <a href="#0" class="popular__thumb">
+                            <img src="images/thumbs/small/salad-150.jpg" alt="">
+                        </a>
+                        <h5><a href="#0">Healthy Mediterranean Salad Recipes</a></h5>
+                        <section class="popular__meta">
+                            <span class="popular__author"><span>By</span> <a href="#0"> John Doe</a></span>
+                            <span class="popular__date"><span>on</span> <time datetime="2017-12-12">Dec 12, 2017</time></span>
+                        </section>
+                    </article>
+                </div> <!-- end popular_posts -->
+            </div> <!-- end popular -->
+            
+            <div class="col-four md-six tab-full about">
+                <h3>About Philosophy</h3>
+
+                <p>
+                Donec sollicitudin molestie malesuada. Nulla quis lorem ut libero malesuada feugiat. Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.
+                </p>
+
+                <ul class="about__social">
+                    <li>
+                        <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                    </li>
+                </ul> <!-- end header__social -->
+            </div> <!-- end about -->
+
+        </div> <!-- end row -->
+
+        <div class="row bottom tags-wrap">
+            <div class="col-full tags">
+                <h3>Tags</h3>
+
+                <div class="tagcloud">
+                    <a href="#0">Salad</a>
+                    <a href="#0">Recipe</a>
+                    <a href="#0">Places</a>
+                    <a href="#0">Tips</a>
+                    <a href="#0">Friends</a>
+                    <a href="#0">Travel</a>
+                    <a href="#0">Exercise</a>
+                    <a href="#0">Reading</a>
+                    <a href="#0">Running</a>
+                    <a href="#0">Self-Help</a>
+                    <a href="#0">Vacation</a>
+                </div> <!-- end tagcloud -->
+            </div> <!-- end tags -->
+        </div> <!-- end tags-wrap -->
+
+    </section> <!-- end s-extra -->
 
 
-			</div>
-				<div class="post_btn">
-					<div class="hover_effect_btn" id="hover_effect_btn">
-						<a href="#hover_effect_btn" data-hover="view more post"><span>view more post</span></a>
-					</div>
-				</div>	
-			</div>			
-		</div>
-</section>
-<!-- End Portfolio Section -->
+    <!-- s-footer
+    ================================================== -->
+    <footer class="s-footer">
 
-<!-- start our team Section -->
-<section id="tm_sec">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs12 ">
-				<div class="title_sec">
-					<h1>Our Team</h1>
-					<h2>WE’RE BRANDING & DIGITAL STUDIO FROM VIET NAM</h2>
-				</div>			
-			</div>		
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs12">
-				<div class="all_team">
-					<div class="sngl_team">						
-						<img src="http://wedesignthemes.com/themes/dt-mountcool/wp-content/uploads/2015/10/img-1.png" alt=""/>	
-						<h3> Jamie Catllahan <span>Designer</span></h3>
-						<p>Lorem ipsum dolor sit amet, consecttur adipisicing elit. Laudant</p>						
-					</div>					
-					<div class="sngl_team">						
-						<img src="http://wedesignthemes.com/themes/dt-mountcool/wp-content/uploads/2015/10/img-2.png" alt=""/>	
-						<h3>Lisa Kudrow <span> Manager </span></h3>
-						<p>Lorem ipsum dolor sit amet, consecttur adipisicing elit. Laudant</p>						
-					</div>				
-					<div class="sngl_team">						
-						<img src="http://wedesignthemes.com/themes/dt-mountcool/wp-content/uploads/2015/10/img-3.png" alt=""/>	
-						<h3> John Clarance <span>   Senior Manager   </span></h3>
-						<p>Lorem ipsum dolor sit amet, consecttur adipisicing elit. Laudant</p>						
-					</div>				
-					<div class="sngl_team">						
-						<img src="http://wedesignthemes.com/themes/dt-mountcool/wp-content/uploads/2015/10/img-4.png" alt=""/>	
-						<h3>Sheena Maya<span> Developer </span></h3>
-						<p>Lorem ipsum dolor sit amet, consecttur adipisicing elit. Laudant</p>						
-					</div>					
-					<div class="sngl_team">						
-						<img src="http://wedesignthemes.com/themes/dt-mountcool/wp-content/uploads/2015/10/img-1.png" alt=""/>	
-						<h3> Jamie Catllahan <span>Designer</span></h3>
-						<p>Lorem ipsum dolor sit amet, consecttur adipisicing elit. Laudant</p>						
-					</div>					
-					<div class="sngl_team">						
-						<img src="http://wedesignthemes.com/themes/dt-mountcool/wp-content/uploads/2015/10/img-2.png" alt=""/>	
-						<h3>Lisa Kudrow <span> Manager </span></h3>
-						<p>Lorem ipsum dolor sit amet, consecttur adipisicing elit. Laudant</p>						
-					</div>				
-					<div class="sngl_team">						
-						<img src="http://wedesignthemes.com/themes/dt-mountcool/wp-content/uploads/2015/10/img-3.png" alt=""/>	
-						<h3> John Clarance <span>   Senior Manager   </span></h3>
-						<p>Lorem ipsum dolor sit amet, consecttur adipisicing elit. Laudant</p>						
-					</div>				
-					<div class="sngl_team">						
-						<img src="http://wedesignthemes.com/themes/dt-mountcool/wp-content/uploads/2015/10/img-4.png" alt=""/>	
-						<h3>Sheena Maya<span> Developer </span></h3>
-						<p>Lorem ipsum dolor sit amet, consecttur adipisicing elit. Laudant</p>						
-					</div>				
-					<div class="sngl_team">						
-						<img src="http://wedesignthemes.com/themes/dt-mountcool/wp-content/uploads/2015/10/img-1.png" alt=""/>	
-						<h3> Jamie Catllahan <span>Designer</span></h3>
-						<p>Lorem ipsum dolor sit amet, consecttur adipisicing elit. Laudant</p>						
-					</div>					
-					<div class="sngl_team">						
-						<img src="http://wedesignthemes.com/themes/dt-mountcool/wp-content/uploads/2015/10/img-2.png" alt=""/>	
-						<h3>Lisa Kudrow <span> Manager </span></h3>
-						<p>Lorem ipsum dolor sit amet, consecttur adipisicing elit. Laudant</p>						
-					</div>				
-					<div class="sngl_team">						
-						<img src="http://wedesignthemes.com/themes/dt-mountcool/wp-content/uploads/2015/10/img-3.png" alt=""/>	
-						<h3> John Clarance <span>   Senior Manager   </span></h3>
-						<p>Lorem ipsum dolor sit amet, consecttur adipisicing elit. Laudant</p>						
-					</div>				
-					<div class="sngl_team">						
-						<img src="http://wedesignthemes.com/themes/dt-mountcool/wp-content/uploads/2015/10/img-4.png" alt=""/>	
-						<h3>Sheena Maya<span> Developer </span></h3>
-						<p>Lorem ipsum dolor sit amet, consecttur adipisicing elit. Laudant</p>						
-					</div>													
-				</div>			
-			</div>
-		</div>
-	</div>
-</section>
-<!-- End our team Section -->
+        <div class="s-footer__main">
+            <div class="row">
+                
+                <div class="col-two md-four mob-full s-footer__sitelinks">
+                        
+                    <h4>Quick Links</h4>
 
-<!-- start our teastimonial Section -->
-<section id="tstm_sec">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="all_tstm">
-					
-				<div class="clnt_tstm">
-					<div class="sngl_tstm">
-						<i class="fa fa-quote-right"></i>
-						<h3>what people say?</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur sequi accusamus voluptatum rem itaque alias deleniti nostrum aperiam fugiat voluptates debitis praesentium incidunt accusantium distinctio,</p>
-						<h6>- jhon deo</h6>					
-					</div>
-				</div>						
-				
-				<div class="clnt_tstm">
-					<div class="sngl_tstm">
-						<i class="fa fa-quote-right"></i>
-						<h3>Clien Design</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur sequi accusamus voluptatum rem itaque alias deleniti nostrum aperiam fugiat voluptates debitis praesentium incidunt accusantium distinctio,</p>
-						<h6>- shura deo</h6>					
-					</div>
-				</div>				
-				<div class="clnt_tstm">
-					<div class="sngl_tstm">
-						<i class="fa fa-quote-right"></i>
-						<h3>Awesome Support SIMA</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur sequi accusamus voluptatum rem itaque alias deleniti nostrum aperiam fugiat voluptates debitis praesentium incidunt accusantium distinctio,</p>
-						<h6>- kumara deo</h6>					
-					</div>
-				</div>				
-				<div class="clnt_tstm">
-					<div class="sngl_tstm">
-						<i class="fa fa-quote-right"></i>
-						<h3>Theme Feature great</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur sequi accusamus voluptatum rem itaque alias deleniti nostrum aperiam fugiat voluptates debitis praesentium incidunt accusantium distinctio,</p>
-						<h6>- dhera deo</h6>					
-					</div>
-				</div>				
-				<div class="clnt_tstm">
-					<div class="sngl_tstm">
-						<i class="fa fa-quote-right"></i>
-						<h3>Non conflict</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur sequi accusamus voluptatum rem itaque alias deleniti nostrum aperiam fugiat voluptates debitis praesentium incidunt accusantium distinctio,</p>
-						<h6>- jhon deo</h6>					
-					</div>
-				</div>	
-					
-				</div>
-			</div>	
-		</div>
-	</div>
-</section>
-<!-- End our teastimonial Section -->
+                    <ul class="s-footer__linklist">
+                        <li><a href="#0">Home</a></li>
+                        <li><a href="#0">Blog</a></li>
+                        <li><a href="#0">Styles</a></li>
+                        <li><a href="#0">About</a></li>
+                        <li><a href="#0">Contact</a></li>
+                        <li><a href="#0">Privacy Policy</a></li>
+                    </ul>
+
+                </div> <!-- end s-footer__sitelinks -->
+
+                <div class="col-two md-four mob-full s-footer__archives">
+                        
+                    <h4>Archives</h4>
+
+                    <ul class="s-footer__linklist">
+                        <li><a href="#0">January 2018</a></li>
+                        <li><a href="#0">December 2017</a></li>
+                        <li><a href="#0">November 2017</a></li>
+                        <li><a href="#0">October 2017</a></li>
+                        <li><a href="#0">September 2017</a></li>
+                        <li><a href="#0">August 2017</a></li>
+                    </ul>
+
+                </div> <!-- end s-footer__archives -->
+
+                <div class="col-two md-four mob-full s-footer__social">
+                        
+                    <h4>Social</h4>
+
+                    <ul class="s-footer__linklist">
+                        <li><a href="#0">Facebook</a></li>
+                        <li><a href="#0">Instagram</a></li>
+                        <li><a href="#0">Twitter</a></li>
+                        <li><a href="#0">Pinterest</a></li>
+                        <li><a href="#0">Google+</a></li>
+                        <li><a href="#0">LinkedIn</a></li>
+                    </ul>
+
+                </div> <!-- end s-footer__social -->
+
+                <div class="col-five md-full end s-footer__subscribe">
+                        
+                    <h4>Our Newsletter</h4>
+
+                    <p>Sit vel delectus amet officiis repudiandae est voluptatem. Tempora maxime provident nisi et fuga et enim exercitationem ipsam. Culpa consequatur occaecati.</p>
+
+                    <div class="subscribe-form">
+                        <form id="mc-form" class="group" novalidate="true">
+
+                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+                
+                            <input type="submit" name="subscribe" value="Send">
+                
+                            <label for="mc-email" class="subscribe-message"></label>
+                
+                        </form>
+                    </div>
+
+                </div> <!-- end s-footer__subscribe -->
+
+            </div>
+        </div> <!-- end s-footer__main -->
+
+        <div class="s-footer__bottom">
+            <div class="row">
+                <div class="col-full">
+                    <div class="s-footer__copyright">
+                        <span>© Copyright Philosophy 2018</span> 
+                        <span>Site Template by <a href="https://colorlib.com/">Colorlib</a></span>
+                    </div>
+
+                    <div class="go-top">
+                        <a class="smoothscroll" title="Back to Top" href="#top"></a>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end s-footer__bottom -->
+
+    </footer> <!-- end s-footer -->
 
 
-<!-- start Latest post Section -->
-<section id="lts_sec">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs12 ">
-				<div class="title_sec">
-					<h1>Our Latest Blog</h1>
-					<h2>WE’RE BRANDING & DIGITAL STUDIO FROM VIET NAM</h2>
-				</div>			
-			</div>		
-			<div class="col-lg-4 col-md-4 col-sm-12">
-				<div class="lts_pst">						
-					<img src="http://cdn.shopify.com/s/files/1/1039/5466/files/blog-img2.jpg?10828543012475550494" alt=""/>
-					<h2>How to fix your bug</h2>
-					<p>Nullam metus arcu, pharetra eu tempor vel, consectetur nec metus. Praesent malesuada, purus et euismod rutrum, augue nisi facilisis diam, vitae auctor nisl libero nec eros. Vivamus vitae pulvinar augue. Nulla facilisi. Quisque rutrum ante interdum</p>
-					<a href="single.html">Read more <i class="fa fa-long-arrow-right"></i></a>					
-				</div>
-			</div>			
-			<div class="col-lg-4 col-md-4 col-sm-12">
-				<div class="lts_pst">						
-					<img src="http://cdn.shopify.com/s/files/1/1039/5466/files/blog-img3.jpg?16122351990094232768" alt=""/>
-					<h2>Pellentesque nibh libero</h2>
-					<p>Nullam metus arcu, pharetra eu tempor vel, consectetur nec metus. Praesent malesuada, purus et euismod rutrum, augue nisi facilisis diam, vitae auctor nisl libero nec eros. Vivamus vitae pulvinar augue. Nulla facilisi. Quisque rutrum ante interdum</p>
-					<a href="">Read more <i class="fa fa-long-arrow-right"></i></a>					
-				</div>
-			</div>		
-			<div class="col-lg-4 col-md-4 col-sm-12">
-				<div class="lts_pst">						
-					<img src="http://cdn.shopify.com/s/files/1/1039/5466/files/blog-img1.jpg?1960436319992241823" alt=""/>
-					<h2>pharetra eu tempor vel</h2>
-					<p>Nullam metus arcu, pharetra eu tempor vel, consectetur nec metus. Praesent malesuada, purus et euismod rutrum, augue nisi facilisis diam, vitae auctor nisl libero nec eros. Vivamus vitae pulvinar augue. Nulla facilisi. Quisque rutrum ante interdum</p>
-					<a href="">Read more <i class="fa fa-long-arrow-right"></i></a>					
-				</div>
-			</div>
-			<div class="post_btn">
-				<div class="hover_effect_btn" id="hover_effect_btn">
-					<a href="#hover_effect_btn" data-hover="view more post"><span>view more post</span></a>
-				</div>
-			</div>			
-
-		</div>
-	</div>
-</section>
-<!-- End Latest post Section -->
-
-<!-- start pricing Section -->
-<section id="pricing_sec">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs12 ">
-				<div class="title_sec">
-					<h1>Our Pricing Plan</h1>
-					<h2>WE’RE BRANDING & DIGITAL STUDIO FROM VIET NAM</h2>
-				</div>			
-			</div>		
-			<div class="col-lg-4 col-md-4 col-sm-12">
-				<div class="sngl_pricing">											
-					<h2 class="title_bg_1">Basic</h2>
-					<h3><span class="currency">$</span>30<span class="monuth">/  mo</span></h3>
-					<ul>
-						<li>30 GB of Storage</li>
-						<li>30 GB of Storage</li>
-						<li>30 GB of Storage</li>
-						<li>30 GB of Storage</li>
-						<li><a href="" class="btn pricing_btn">Send</a></li>
-						
-					</ul>		
-				</div>
-			</div>			
-			<div class="col-lg-4 col-md-4 col-sm-12">
-				<div class="sngl_pricing">											
-					<h2 class="title_bg_2">Standerd</h2>
-					<h3><span class="currency">$</span>50<span class="monuth">/  mo</span></h3>
-					<ul>
-						<li>30 GB of Storage</li>
-						<li>30 GB of Storage</li>
-						<li>30 GB of Storage</li>
-						<li>30 GB of Storage</li>
-						<li><a href="" class="btn pricing_btn">Send</a></li>
-					</ul>		
-				</div>
-			</div>			
-			<div class="col-lg-4 col-md-4 col-sm-12">
-				<div class="sngl_pricing">											
-					<h2 class="title_bg_3">Extended</h2>
-					<h3><span class="currency">$</span>90<span class="monuth">/  mo</span></h3>
-					<ul>
-						<li>30 GB of Storage</li>
-						<li>30 GB of Storage</li>
-						<li>30 GB of Storage</li>
-						<li>30 GB of Storage</li>
-						<li><a href="" class="btn pricing_btn">Send</a></li>
-					</ul>		
-				</div>
-			</div>	
-		</div>
-	</div>
-</section>
-<!-- End pricing Section -->
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
 
 
-<!-- start Happy Client Section -->
-<section id="clt_sec">
-	<div class="container">	
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs12 ">
-				<div class="title_sec">
-					<h1>Our Happy Clients</h1>
-					<h2>WE’RE BRANDING & DIGITAL STUDIO FROM VIET NAM</h2>
-				</div>			
-			</div>		
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs12">
-				<div class="al_clt">						
-					<div class="sngl_clt">
-						<a href=""><img src="http://showwp.com/demos/porton/default/upload/client_03.png" alt=""/></a>
-					</div>				
-					<div class="sngl_clt">
-						<a href=""><img src="http://showwp.com/demos/porton/default/upload/client_03.png" alt=""/></a>
-					</div>				
-					<div class="sngl_clt">
-						<a href=""><img src="http://showwp.com/demos/porton/default/upload/client_04.png" alt=""/></a>
-					</div>				
-					<div class="sngl_clt">
-						<a href=""><img src="http://showwp.com/demos/porton/default/upload/client_05.png" alt=""/></a>
-					</div>				
-					<div class="sngl_clt">
-						<a href=""><img src="http://showwp.com/demos/porton/default/upload/client_01.png" alt=""/></a>
-					</div>					
-					<div class="sngl_clt">
-						<a href=""><img src="http://showwp.com/demos/porton/default/upload/client_03.png" alt=""/></a>
-					</div>				
-					<div class="sngl_clt">
-						<a href=""><img src="http://showwp.com/demos/porton/default/upload/client_04.png" alt=""/></a>
-					</div>				
-					<div class="sngl_clt">
-						<a href=""><img src="http://showwp.com/demos/porton/default/upload/client_05.png" alt=""/></a>
-					</div>				
-					<div class="sngl_clt">
-						<a href=""><img src="http://showwp.com/demos/porton/default/upload/client_01.png" alt=""/></a>
-					</div>					
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
-				</div>
-			</div>	
-		</div>
-	</div>
-</section>
-<!-- End Happy Client  Section -->
+</body>
 
-<!-- start contact us Section -->
-<section id="ctn_sec">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs12 ">
-				<div class="title_sec">
-					<h1>Contact Info</h1>
-					<h2>WE’RE BRANDING & DIGITAL STUDIO FROM VIET NAM</h2>
-				</div>			
-			</div>		
-			<div class="col-sm-6"> 
-				<div id="cnt_form">
-					<form id="contact-form" class="contact" name="contact-form" method="post" action="send-mail.php">
-						<div class="form-group">
-						<input type="text" name="name" class="form-control name-field" required="required" placeholder="Your Name">
-						</div>
-						<div class="form-group">
-							<input type="email" name="email" class="form-control mail-field" required="required" placeholder="Your Email">
-						</div> 
-						<div class="form-group">
-							<textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
-						</div> 
-						<div class="form-group">
-							<button type="submit" class="btn btn-primary">Send</button>
-						</div>
-					</form> 
-				</div>
-			</div>
-			<div class="col-lg-6 col-md-6 col-sm-6">
-				<div class="cnt_info">
-					<ul>
-						<li><i class="fa fa-facebook"></i><p>121 King Street, Melbourne Victoria 3000 Australia</p></li>
-						<li><i class="fa fa-envelope"></i><p>contact@info.com</p></li>
-						<li><i class="fa fa-phone"></i><p>+0987654321 (+012345678)</p></li>
-					</ul>
-				</div>
-			</div>			
-		</div>
-	</div>
-</section>
-<!-- End contact us  Section -->
-
-<!-- start located map Section -->
-<section id="ltd_map_sec">
-<div class="container">
-	<div class="row">
-		<div class="col-lg-12">
-			<div class="map">						
-			<h1>located THE MAP</h1><a href="#slidingDiv" class="show_hide" rel="#slidingDiv"><i class="fa fa-angle-up"></i></a>
-			<div id="slidingDiv">
-				<div class="map_area">
-					<div id="googleMap" style="width:100%;height:300px;"></div>
-				</div>
-			</div>	
-			</div>
-		</div>
-	</div>
-</div>
-</section>
-
-<!-- End located map  Section -->
-<!-- start footer Section -->
-<footer id="ft_sec">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="ft">						
-					<ul>
-						<li><a href=""><i class="fa fa-facebook"></i></a></li>
-						<li><a href=""><i class="fa fa-twitter"></i></a></li>
-						<li><a href=""><i class="fa fa-dribbble"></i></a></li>
-						<li><a href=""><i class="fa fa-rss"></i></a></li>
-						<li><a href=""><i class="fa fa-flickr"></i></a></li>
-						<li><a href=""><i class="fa fa-pinterest"></i></a></li>
-						<li><a href=""><i class="fa fa-linkedin"></i></a></li>
-						<li><a href=""><i class="fa fa-skype"></i></a></li>
-						<li><a href=""><i class="fa fa-google"></i></a></li>
-					</ul>					
-				</div>
-				<ul class="copy_right">
-					<li>&copy;Sima 2015</li>
-					<li>developer by md. shiddikur rahman</li>
-				</ul>					
-			</div>	
-		</div>
-	</div>
-</footer>
-<!-- End footer Section -->
-
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-        <script src="js/vendor/jquery-1.11.2.min.js"></script>
-
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery-ui.js"></script>
-<script src="js/appear.js"></script>
-<script src="js/jquery.counterup.min.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/showHide.js"></script>
-<script src="js/jquery.nicescroll.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/scrolling-nav.js"></script>
-<script src="js/plugins.js"></script>
-<!-- Google Map js -->
-        <script src="https://maps.googleapis.com/maps/api/js"></script>
-		<script>
-			function initialize() {
-			  var mapOptions = {
-				zoom: 14,
-				scrollwheel: false,
-				center: new google.maps.LatLng(41.092586000000000000, -75.592688599999970000)
-			  };
-			  var map = new google.maps.Map(document.getElementById('googleMap'),
-				  mapOptions);
-			  var marker = new google.maps.Marker({
-				position: map.getCenter(),
-				animation:google.maps.Animation.BOUNCE,
-				icon: 'img/map-marker.png',
-				map: map
-			  });
-			}
-			google.maps.event.addDomListener(window, 'load', initialize);
-		</script>
-<script src="js/main.js"></script>
-
-<script src="showHide.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-
-$(document).ready(function(){
-
-
-   $('.show_hide').showHide({			 
-		speed: 1000,  // speed you want the toggle to happen	
-		easing: '',  // the animation effect you want. Remove this line if you dont want an effect and if you haven't included jQuery UI
-		changeText: 1, // if you dont want the button text to change, set this to 0
-		showText: 'View',// the button text to show when a div is closed
-		hideText: 'Close' // the button text to show when a div is open
-					 
-	}); 
-
-
-});
-
-</script>
-<script>
-    jQuery(document).ready(function( $ ) {
-        $('.counter').counterUp({
-            delay: 10,
-            time: 1000
-        });
-    });
-</script>
-
-<script>
-
-  //Hide Overflow of Body on DOM Ready //
-$(document).ready(function(){
-    $("body").css("overflow", "hidden");
-});
-
-// Show Overflow of Body when Everything has Loaded 
-$(window).load(function(){
-    $("body").css("overflow", "visible");        
-    var nice=$('html').niceScroll({
-	cursorborder:"5",
-	cursorcolor:"#00AFF0",
-	cursorwidth:"3px",
-	boxzoom:true, 
-	autohidemode:true
-	});
-
-});
-</script>
-
-
-
-    </body>
 </html>
