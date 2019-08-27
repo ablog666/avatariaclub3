@@ -88,9 +88,6 @@ a.btn-cta-secondary:hover,
 .offset-header {
   padding-top: 90px;
 }
-pre code {
-  font-size: 16px;
-}
 /* ======= Header ======= */
 .header {
   padding: 10px 0;
@@ -621,6 +618,13 @@ pre code {
   
   .avatar {
     border-radius: 50%;
+  }
+  pre {
+    padding: 0 30px;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Arial", sans-serif;
+    
   }
 }
 /* Small devices (tablets, 768px and up) */
