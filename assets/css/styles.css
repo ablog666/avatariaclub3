@@ -159,6 +159,13 @@ a.btn-cta-secondary:hover,
   font-size: 14px;
   padding: 15px 10px;
 }
+.qwer
+  {
+    font-size: 28px;
+  max-width: 680px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  }
 .header .main-nav .nav .nav-item a:hover {
   color: #074f66;
   background: none;
@@ -619,7 +626,7 @@ a.btn-cta-secondary:hover,
   .avatar {
     border-radius: 50%;
   }
-
+  
 }
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
