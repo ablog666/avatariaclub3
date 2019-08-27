@@ -615,6 +615,13 @@ pre code {
     width: 10px;
     height: 10px;
   }
+  .avatar-container {
+    text-align: center;
+  }
+  
+  .avatar {
+    border-radius: 50%;
+  }
 }
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
