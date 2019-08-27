@@ -611,6 +611,13 @@ pre code {
   .contact .social-icons a .fa:before {
     font-size: 18px;
   }
+  .avatar-container {
+    text-align: center;
+  }
+  
+  .avatar {
+    border-radius: 50%;
+  }
 }
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
