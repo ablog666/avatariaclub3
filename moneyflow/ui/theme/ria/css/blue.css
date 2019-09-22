@@ -1,0 +1,33 @@
+.sidebar {
+    background: #4276a4;
+}
+
+.sidebar .side-nav ul li a{
+    color:#c9dff5;
+}
+
+.sidebar .side-nav h4 {
+
+    color: #66a4e3;
+
+}
+
+.outer {
+
+    background: #4276a4;
+}
+
+.sidebar .logo {
+
+    border-bottom: 1px solid #397fae;
+
+}
+
+
+.sidebar .side-nav ul li ul li a {
+    color:#c9dff5;
+}
+
+.sidebar .side-nav ul li ul li a:hover{
+    color:#ffffff;
+}

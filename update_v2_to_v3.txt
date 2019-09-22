@@ -1,0 +1,10 @@
+If you are using v2 & Purchased before December 16, 2014
+Run following sql query-
+
+INSERT INTO `sys_appconfig` (`setting`, `value`) VALUES ('rtl', '0');
+ALTER TABLE `sys_cats` ADD `bt` DECIMAL(20,2) NOT NULL DEFAULT '0.00' ;
+
+
+After running above sql query, replace all new files.
+Now you are using v3.
+

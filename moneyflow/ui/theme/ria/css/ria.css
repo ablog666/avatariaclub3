@@ -1,0 +1,49 @@
+.sidebar {
+    background: #3d5672;
+}
+
+.sidebar .side-nav ul li a{
+
+    color:#c9dff5;
+}
+
+.sidebar .side-nav ul li:hover{
+    background: none repeat scroll 0 0 #466383;
+}
+
+.sidebar .side-nav h4 {
+
+    color: #66a4e3;
+
+}
+
+.outer {
+
+    background: #3d5672;
+}
+
+.sidebar .logo {
+
+    border-bottom: 1px solid #397fae;
+
+}
+
+
+.sidebar .side-nav ul li ul li a {
+    color:#c9dff5;
+}
+
+.sidebar .side-nav ul li ul li a:hover{
+    color:#ffffff;
+}
+
+.sidebar{
+    width:210px;
+
+}
+
+.mainbar {
+
+    margin-left: 210px;
+
+}

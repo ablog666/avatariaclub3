@@ -1,111 +1,447 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="ru"> <!--<![endif]-->  
-<head>
-    <title>Avataria</title>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">    
-    <link rel="shortcut icon" href="favicon.ico">  
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-    <!-- Plugins CSS -->    
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
-    <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head> 
-
-<body data-spy="scroll">
-    
-    <!---//Facebook button code-->
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-    
-    <!-- ******HEADER****** --> 
-    <header id="header" class="header">  
-        <div class="container">            
-            <h1 class="logo pull-left">
-                <a href="index.html">
-                    <span class="logo-title">Avatariaclub</span>
-                </a>
-            </h1><!--//logo-->              
-            <nav id="main-nav" class="main-nav navbar-right" role="navigation">
-                <div class="navbar-header">
-                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button><!--//nav-toggle-->
-                </div><!--//navbar-header-->            
-                <div class="navbar-collapse collapse" id="navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Главная1</a></li>
-                    </ul><!--//nav-->
-                    <a href="obnova.html">Обновления</a>
-                </div><!--//navabr-collapse-->
-            </nav><!--//main-nav-->
-        </div>
-    </header><!--//header-->
-    
-    <!-- ******PROMO******
-}-->
-    <section id="promo" class="promo section offset-header">
-            
-        <div class="container text-center">
-            
-            <h2 class="title">обновления<span class="highlight">Аватарии</span></h2>
-        </div><!--//container-->
-        
-    </section><!--//promo-->
-    
-    
-    <!-- ******DOCS****** --> 
-    <section id="docs" class="docs section">
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Documentation - MoneyFlow</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <!-- Le styles -->
+        <link href="assets/css/bootstrap.css" rel="stylesheet" />
+        <link href="assets/css/bootstrap-responsive.css" rel="stylesheet" />
+        <link href="assets/google-code-prettify/prettify.css" rel="stylesheet" />
+        <link href="assets/css/docs.css" rel="stylesheet" />
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <!-- Le fav and touch icons -->
+        <link rel="shortcut icon" href="assets/img/favicon.ico" />
+        <style>
+            .pluginwrap { display:none; } 
+            .pluginwrapActive { display:block; }
+        </style>
+    </head>
+    <body>
+        <!-- Subhead
+            ================================================== -->
+        <header class="jumbotron subhead">
+            <div class="container container-narrow">
+                <h1>MoneyFlow - Business &amp; Personal Finance Management Software</h1>
+                <p class="lead">Documentation For MoneyFlow</p>
+            </div>
+        </header>
         <div class="container">
-            <div class="docs-inner">
-            <h2 class="title text-center">Свежее обновление</h2>            
-            <div class="block">
-                <h3 class="sub-title text-center"><!--Название обновления--></h3>
-                
-                        <p class="qwer"><!--Содержимое обновления--></p>
-                        <img src="image/4.png"> 
-            </div><!--//docs-inner-->         
-        </div><!--//container-->
-    </section><!--//features-->
-    <!-- ******FOOTER****** --> 
-    <footer class="footer">
-        <div class="container text-center">
-            <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
-            <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-        </div><!--//container-->
-    </footer><!--//footer-->
-     
-    <!-- Javascript -->          
-    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>   
-    <script type="text/javascript" src="assets/plugins/jquery.easing.1.3.js"></script>   
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>     
-    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script> 
-    <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>    
-    <script type="text/javascript" src="assets/js/main.js"></script>       
-</body>
-</html> 
+            <div class="row">
+                <div class="span12">
+                    <div class="well intro-text">
+                        <h3>Thank You So Much for Purchasing MoneyFlow!</h3>
+                        <p>
+                            If you have any questions that are beyond the scope of this help file, please email me - me@sadiasharmin.com</p>
+                        <p>Author: <a href="http://codecanyon.net/user/SadiaSharmin">SadiaSharmin</a><br>
+                          Created On: 14/10/2014<br>
+                          Email: sadiasharmin3139@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:20px;margin-bottom:20px">
+                <div class="span12">
+                    <table class="table table-bordered table-striped">
+                        <tbody>
+                            <tr>
+                              <td><h4>Table of Contents:</h4>
+                                <ul class="menu">
+                                  <li><a href="javascript:;" class="clickable" data-section="#getting-started">1. Get started with MoneyFlow</a></li>
+                                  <li><a href="javascript:;" class="clickable" data-section="#installing">2. Installing MoneyFlow</a></li>
+                                  <li><a href="javascript:;" class="clickable" data-section="#setting-up">3. Setting Up</a></li>
+                                  <li><a href="javascript:;" class="clickable" data-section="#accounts">4. Accounts</a></li>
+                                  <li><a href="javascript:;" class="clickable" data-section="#transactions">5. Transactions</a></li>
+                                  <li><a href="javascript:;" class="clickable" data-section="#repeating-transactions">6. Recurring / Repeating Transactions</a></li>
+                                  <li><a href="javascript:;" class="clickable" data-section="#reports">7. Reports</a></li>
+                                  <li><a href="javascript:;" class="clickable" data-section="#other-settings">8. Other Settings</a></li>
+                                  <li><a href="javascript:;" class="clickable" data-section="#definitions">9. Definitions</a></li>
+                                  <li><a href="javascript:;" class="clickable" data-section="#end">10. End Of Documentation </a></li>
 
+
+                                </ul>                                </td>
+                            </tr>
+                           
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="span12">
+                    <section id="getting-started">
+                        <div class="page-header">
+                            <h1>1. Getting Started With MoneyFlow</h1>
+                            <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+                        </div>
+
+                        <h3>
+                            System Requirements
+                        </h3>
+                        <p>
+                            Most current web servers with PHP &amp; MySQL installed will be capable of running MoneyFlow. Here is the system requirements to run moneyflow in your server-
+                            <br>
+                            -- PHP 5.3+ <br>
+                            -- MySQL <br>
+                            -- Enabled PDO for MySQL <br>
+
+                        </p>
+
+                    </section>
+                </div>
+            </div>
+
+
+
+
+            <div class="row">
+                <div class="span12">
+                    <section id="installing">
+                        <div class="page-header">
+                            <h1>2. Installing MoneyFlow</h1>
+                            <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+                        </div>
+                        <h3>With Built In Auto Installer</h3>
+                        <p>
+                          1.  Unzip the contents of the zip file to a folder on your computer. You will find two folders, One folder contains documentation &amp; another is moneyflow.<br>
+                            2. Upload the Entire moneyflow folder to your website / server <br>
+                            3. Next you can rename the folder to whatever you like (accounting, finance, manage etc..)
+                            <br>
+                            4. Now visit the uploaded location using your web browser to run the installer process. <br>
+                            5. Follow the instructions on screen to install moneyflow. <br>
+                            On Successful Installation, You will be able to login using - Username: admin &amp; Password is- 123456 . Please change your Password after login.
+<br>
+                            6. For security, Delete the install directory inside sysfrm folder.
+                            <br>
+                            <br>
+                           <strong> <span style="color:red;">7. If you see blank page after installation, it might be your compiled folder permissoon is not writable. Please make permission 755 compiled directory inside ui folder to store the generated contents from theme.</span></strong>
+                        </p>
+<h3>Manual Install</h3>
+                        <p>To install manually, follow this steps- <br> </p>
+                        <p>
+                            1.  Unzip the contents of the zip file to a folder on your computer. You will find two folders, One folder contains documentation &amp; another is moneyflow.<br>
+                            2. Upload the Entire moneyflow folder to your website / server <br>
+                            3. Next you can rename the folder to whatever you like (accounting, finance, manage etc..)
+                            <br>
+                           4. Sample config file is available here- <code> sysfrm/config.sample.php </code> . Rename it to config.php &amp; put it in same location (/sysfrm/config.php)
+
+                        Open config file using a text editor &amp; Put the database info and url. <br>
+
+                            5. Import database. Database file is located here- <code> sysfrm/install/primary.sql </code> <br>
+                            On Successful Installation, You will be able to login using - Username: admin &amp; Password is- 123456 . Please change your Password after login.
+                            <br>
+                            6. For security, Delete the install directory inside sysfrm folder.
+
+                        </p>
+
+                    </section>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="span12">
+                    <section id="setting-up">
+                        <div class="page-header">
+                            <h1>3. Setting Up</h1>
+                            <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+                        </div>
+                        <p>
+                          Before you start using moneyflow. Add your accounts, payees, payers, expense categories, income categories. <br>
+                            Some common categories already added for you. You can use it, modify it, or add new.
+                        </p>
+
+
+                    </section>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <section id="accounts">
+                        <div class="page-header">
+                            <h1>4. Accounts</h1>
+                            <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+                        </div>
+                        <p>
+                            Accounts are how you keep track of your bank accounts/ cash accounts in MoneyFlow.
+                            By adding an account, you’ll be able to store and view information about your accounts, and track and analyse transaction history.
+                            You can also view total cash in all accounts, use in repeating transactions.
+                        </p>
+                            <h3>Creating Accounts</h3>
+                        <p>
+                        To create a new account, click Ad An Account Sub Menu under Accounts menu. <br>
+                        The Add New Account Form will look like this-
+                            <br><br>
+                            <br>
+                            <img src="assets/img/add-account.jpg">
+
+                        </p>
+                        <p>
+                            <strong>Account Title: </strong> Put a Name of your Bank / Cash Account. (e.g. XYZ Bank, Cash in Home etc. )<br><br>
+                            <strong>Description: </strong> Put a description of your account. (e.g. Your Account Number, Branch etc.)<br><br>
+                            <strong>Initial Balance: </strong> Put the amount of your current balance. (When you adding your account, you will have to put your current balance.
+                            From next time, account balance will be calculated automatically based on your transactions.)
+
+
+                        </p>
+
+                        <h3>Managing Accounts</h3>
+                        To manage your bank accounts go to Manage Accounts sub menu under Accounts. Here your will be able to edit or delete accounts.
+
+                    </section>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <section id="transactions">
+                        <div class="page-header">
+                            <h1>5. Transactions</h1>
+                            <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+                        </div>
+                        <p>
+                           Under Transactions menu, you will be able to Add Deposit (Or Income), Add Expense. Account to Account Transfer. View All Transactions etc.
+                        </p>
+                        <h3>Add Deposit (Or Income)</h3>
+                        <p>
+                            To add a entry of income transaction, click Ad Deposit Sub Menu under Transactions. <br>
+                            The Add Deposit Form will look like this-
+                            <br><br>
+                            <br>
+                            <img src="assets/img/add-deposit.jpg">
+
+                        </p>
+                        <p>
+                            <strong>Account: </strong> Choose the Account you are depositing.<br><br>
+                            <strong>Date: </strong> Date of the transaction<br><br>
+                            <strong>Amount: </strong> Amount of this transaction<br><br>
+                            <strong>Payer: </strong> The Payer of this income (e.g. Your employer, your client or somebody who is paying you. You can
+                            modify payee from Settings -> Payee)<br><br>
+                            <strong>Category: </strong> The category of this transaction. (You can modify categories from Settings -> Income Categories<br><br>
+                            <strong>Payment Method: </strong> You can define payment methods here. (e.g. - Cash, Check, Paypal etc.)<br><br>
+                            <strong>Ref: </strong> You can add a referance of this transaction here. (e.g. - Check number, Transaction id etc.)<br><br>
+                            <strong>Description: </strong> Put description of this transaction.<br><br>
+
+
+
+                        </p>
+
+                        <h3>Adding Expense</h3>
+                        <p> Sameway, You will be able to add expense. To Add Expense, Go to Transactions -> Add Expense</p>
+                        <h3>Account to Account Transfer.</h3>
+                        <p> Go to Transactions -> Transfer. With this you can transfer between accounts. For example you will use this when you are withdrawing fund from Bank Account and keeping it on Cash.
+                        </p>
+
+                    </section>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="span12">
+                    <section id="repeating-transactions">
+                        <div class="page-header">
+                            <h1>6. Recurring / Repeating Transactions</h1>
+                            <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+                        </div>
+                        <p>
+                            Under Recurring menu, you will be able to Add your regular income or expense.
+                        </p>
+                        <h3>Add Deposit (Or Income)</h3>
+                        <p>
+                            To add a entry of repeating income, click Repeating Income Sub Menu under Recurring Menu. <br>
+                            The Add Repeating Income Form will look like this-
+                            <br><br>
+                            <br>
+                            <img src="assets/img/add-repeating-income.jpg">
+
+                        </p>
+                        <p>
+                            <strong>Description: </strong> Put description of this transaction.<br><br>
+                            <strong>Amount: </strong> Amount of this transaction<br><br>
+                            <strong>Frequency: </strong> Frequency of this transaction occurrence. (e.g. -  Monthly, Yearly)<br><br>
+                            <strong>Number of Payment: </strong>  If you choose Frequency Monthly, You can put Number of Payment 12. That will repeat transaction for next 12 months.<br><br>
+                            <strong>Account: </strong> Choose the Account you are depositing.<br><br>
+                            <strong>Date: </strong> Date of the transaction<br><br>
+
+                            <strong>Payer: </strong> The Payer of this income (e.g. Your employer, your client or somebody who is paying you. You can
+                            modify payee from Settings -> Payee)<br><br>
+                            <strong>Category: </strong> The category of this transaction. (You can modify categories from Settings -> Income Categories<br><br>
+                            <strong>Payment Method: </strong> You can define payment methods here. (e.g. - Cash, Check, Paypal etc.)<br><br>
+                            <strong>Ref: </strong> You can add a referance of this transaction here. (e.g. - Check number, Transaction id etc.)<br><br>
+
+
+
+
+                        </p>
+
+                        <h3>Adding Expense</h3>
+                        <p> Sameway, You will be able to add Repeating expense.</p>
+
+
+                    </section>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <section id="reports">
+                        <div class="page-header">
+                            <h1>7. Reports</h1>
+                            <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+                        </div>
+                        <p>
+                           The Application will generate following reports- <br>
+                            <strong>Account Statement: </strong> Account statement will be generated based on transactions in this account. To view statement, select the
+                            account, date from, date to and click the Submit.<br><br>
+                            <strong>Reports by Date: </strong> This page will generate reports based on specific date. Here you will be able to see transactions made in this date.
+                            Total Income in this date, Total Expense in this date. <br><br>
+                            <strong>Income Reports: </strong> Income Reports will be shown here. <br><br>
+                            <strong>Expense Reports: </strong> Expense Reports will be shown here. <br><br>
+                            <strong>Income Vs Expense Reports: </strong> A summary of Income &amp; Expense will be shown here. <br><br>
+                           Here is an Example of generated reports- <br><br>
+                            <img src="assets/img/income-vs-expense.jpg">
+
+                        </p>
+
+
+
+                    </section>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <section id="other-settings">
+                        <div class="page-header">
+                            <h1>8. Other Settings</h1>
+                            <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+                        </div>
+                        <p>
+                           To Access Other Settings Go To - Settings -> Application Settings. <br>
+                            The Form will look like this- <br> <br>
+                            <img src="assets/img/application-settings.jpg">
+
+                        </p>
+
+
+                        <p>
+                            <strong>Application Name/ Company Name: </strong> You can chnage Application Name / Company Name from Here. This will be shown on your Application Title<br><br>
+                            <strong>Theme: </strong> Choose theme from here. Default theme is included. You can create additional theme and define this from here.<br><br>
+                            <strong>Style: </strong> You can choose the theme style from here. If you choose dark, the Application will look like this-
+                            <br>
+                            <br>
+                            <img src="assets/img/dark-style-navigations.jpg">
+
+
+                        </p>
+
+                        <h3>Managing Accounts</h3>
+                        To manage your bank accounts go to Manage Accounts sub menu under Accounts. Here your will be able to edit or delete accounts.
+
+                    </section>
+                </div>
+            </div>
+            <div class="row">
+            <div class="span12">
+            <section id="definitions">
+            <div class="page-header">
+                <h1>9. Definitions</h1>
+                <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+            </div>
+            
+            <table class="table table-bordered table-striped" width="600">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td width="300">Accounting</td>
+                <td>The systematic and comprehensive recording of financial transactions pertaining to a business.
+                    Accounting also refers to the process of summarizing, analyzing and reporting these transactions.
+                    The financial statements that summarize a large company's operations, financial position and
+                    cash flows over a particular period are a concise summary of hundreds of thousands of
+                    financial transactions it may have entered into over this period.</td>
+
+            </tr>
+
+            <tr>
+                <td width="300">Transactions</td>
+                <td>An instance of buying or selling something. In this software you can add transaction for any event like - Income
+                (deposit), Expense, Transfer between two accounts. </td>
+
+            </tr>
+            <tr>
+                <td width="300">Income</td>
+                <td>Money received for work, service or through investments.</td>
+
+            </tr>
+            <tr>
+                <td width="300">Expense</td>
+                <td>The cost incurred in or required for something.</td>
+
+            </tr>
+            <tr>
+                <td width="300">Recurring / Repeating</td>
+                <td> Recur means occur again periodically or repeatedly.
+                In this software, you can input all your future transactions for both income and expense.
+                For example, let's say you are paying an amount every month to X provider for internet bill. So you can put this
+                in Repeating Expense. It will be shown on your Expense calendar.</td>
+
+            </tr>
+            <tr>
+                <td width="300">Payee</td>
+                <td>A person to whom money is paid or is to be paid.</td>
+
+            </tr>
+            <tr>
+                <td width="300">Payer</td>
+                <td>A company or someone who pays a bill for products or services received</td>
+
+            </tr>
+
+
+            </tbody>
+            </table>
+            </section>
+            </div>
+            </div>
+
+
+
+
+            <div class="row">
+                <div class="span12">
+                    <section id="end">
+                        <div class="page-header">
+                            <h1>10. End Of Documentation</h1>
+                            <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+                        </div>
+                        <p>
+                            Once again, thanks for purchasing MoneyFlow. I hope you will enjoy using this software. If you need any custom requirements, don't hesitate to contact with me
+                            via my profile page- <a href="http://codecanyon.net/user/SadiaSharmin">SadiaSharmin</a><br>
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!-- END -->
+        <footer class="footer">
+            <div class="container container-narrow">
+                <p>MoneyFlow - Accounting Software. Built with love by <a href="http://codecanyon.net/user/SadiaSharmin" target="_blank">SadiaSharmin</a>
+            </div>
+        </footer>
+        <!-- Le javascript
+            ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/jquery-1.8.3.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/google-code-prettify/prettify.js"></script>
+        <script src="assets/js/application.js"></script>
+    </body>
+</html>
